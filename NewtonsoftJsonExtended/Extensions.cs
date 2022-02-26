@@ -22,6 +22,11 @@ namespace NewtonsoftJsonExtended
         {
             return JsonConvert.DeserializeObject<dynamic>(jsonText, settings);
         }
+        public static object ToObject(this string jsonText, JsonSerializerSettings settings = null)
+        {
+            return JsonConvert.DeserializeObject<object>(jsonText, settings);
+        }
+
         public static T Deserialize<T>(this byte[] data, JsonSerializerSettings settings = null)
         {
             return JsonConvert.DeserializeObject<T>(data.ToText(), settings);
