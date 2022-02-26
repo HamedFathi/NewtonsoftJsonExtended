@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+		<Authors>Hamed Fathi</Authors>
+		<Company />
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<Version>1.0.0</Version>
+		<LangVersion>latest</LangVersion>
+		<PackageProjectUrl>https://github.com/HamedFathi/NewtonsoftJsonExtended</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/HamedFathi/NewtonsoftJsonExtended</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+</Project>
